@@ -1,0 +1,35 @@
+body {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family:monospace;
+}
+
+.counter-box {
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
+    margin: 250px auto;
+    width: 450px;
+    background-color: lightseagreen;
+    padding: 20px 30px;
+    border-radius: 20px;
+    box-shadow: 0 0 100px red;
+}
+
+.counter-btn {
+    font-size: 100px;
+    border: none;
+    background-color: transparent;
+    border: none;
+}
+
+.count-value {
+    font-size: 100px;
+    font-weight: bold;
+    color: white;
+}
